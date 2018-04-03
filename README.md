@@ -18,7 +18,7 @@ Start development server <br/>
 Then open your browser and browse : <br/>
  `localhost:3000`<br/>
 
-###Production
+### Production
 
 If you want to see your code in production mode :<br/>
 
@@ -26,7 +26,7 @@ First, run <br/>
 `yarn build`<br/>
 
 Update package.json : <br/>
-From `start: react-scripts-start` <br/>
+From `start: react-scripts start` <br/>
 To `start: node index.js` <br/>
 
 Finally, run <br/>
