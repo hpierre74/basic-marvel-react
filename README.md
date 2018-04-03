@@ -10,49 +10,60 @@ Npm or Yarn
 ### Development
 
 ##### Open your terminal in your local working directory and run :
-`git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react` 
-##### Install dependencies 
- `yarn install` or `npm install` 
-##### Start development server 
- `yarn start` or ` npm start`
+
+`git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react`
+
+##### Install dependencies
+
+`yarn install` or `npm install`
+
+##### Start development server
+
+`yarn start` or `npm start`
+
 ##### Then open your browser and browse :
- `localhost:3000`
+
+`localhost:3000`
 
 ### Production
 
 If you want to see your code in production mode :<br/>
 
-##### First, run 
+##### First, run
+
 `yarn build`<br/>
 
-##### Update `package.json` : 
+##### Update `package.json` :
+
 From `start: react-scripts start,` <br/>
 To `start: node index.js,` <br/>
 
-##### Finally, run 
+##### Finally, run
+
 `yarn start` <br/>
 
-#### Alternatively you could define a new script in `package.json` as below : 
+#### Alternatively you could define a new script in `package.json` as below :
+
 `start: react-scripts start,`<br/>
 **`prod: node index.js,`**
 
 ##### And run your new script after you build your app :
+
 `yarn prod`
-
-
 
 ## Features
 
-
 #### Character Detail
+
 You can see details from a specific character clicking on its listed representation.
 
 #### Pick your favorite characters
+
 You can easily add and remove your favorite characters clicking on the star icon.
 
 #### Switch between lists
-To access the favorite panel click on 'My Favorite'
 
+To access the favorite panel click on 'My Favorite'
 
 ## Improvements
 
@@ -69,13 +80,3 @@ Set localstorage or cookie lasting 24h with express to reduce API calls to 1 cal
 As Marvel allows only 3k calls/day, even with cookies or localstorage, we couldn't have more than 3k users daily.<br/>
 To fix this problem, we could save once the data in the database and update it every day with a cron job or automate api key changes<br/>
 Though, this is not a perfect real life example as you shouldn't work with those restrictions.
-
-
-
-
-
-
-
-
-
-
