@@ -22,15 +22,22 @@ Then open your browser and browse : <br/>
 
 If you want to see your code in production mode :<br/>
 
-First, run <br/>
+##### First, run 
 `yarn build`<br/>
 
-Update package.json : <br/>
+##### Update `package.json` : 
 From `start: react-scripts start` <br/>
 To `start: node index.js` <br/>
 
-Finally, run <br/>
+##### Finally, run 
 `yarn start` <br/>
+
+#### Alternatively you could define a new script in `package.json` as below : 
+`start: react-scripts start,`<br/>
+`prod: node index.js`
+And run your new script after you build your app : <br/>
+`yarn prod`
+
 
 
 ## Features
