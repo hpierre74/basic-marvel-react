@@ -1,1 +1,0 @@
-Same steps than original considering *SSR* as your root directory
