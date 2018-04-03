@@ -3,14 +3,18 @@
 ## Prerequisites
 
 Node^7.+
-Npm / Yarn
+Npm or Yarn
 
 ## Getting Started
 
-clone & cd into this repo <br/>
-In your Terminal `yarn install / npm install` <br/>
-Then run `yarn start / npm start`<br/>
-Finally, browse `localhost:3000`<br/>
+Open your terminal in your local working directory and run :<br/>
+`git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react` <br /> 
+Install dependencies <br/>
+ `yarn install` or `npm install` <br/>
+Start development server <br/>
+ `yarn start` or ` npm start`<br/>
+In your browser, go to : <br/>
+ `localhost:3000`<br/>
 
 
 ## Features
@@ -35,11 +39,14 @@ Set localstorage or cookie lasting 24h with express to reduce API calls to 1 cal
 
 ### Solving API calls limit problem
 
-As Marvel allows only 3 000 calls/month, even with a cookie or localstorage, we can't have more than 3k users.<br/>
-To fix that, we could save once the data in our own database and update it every day with a cron job. <br/>
-Though, this is not really a real life example as you are not supposed to work with a call limit that low.
+As Marvel allows only 3k calls/day, even with a cookie or localstorage, we couldn't have more than 3k users daily.<br/>
+To fix this problem, we could save once the data in the database and update it every day with a cron job or automate api key changes<br/>
+Though, this is not a perfect real life example as you shouldn't work with those restrictions.
 
-### Other changes
+
+
+
+
 
 
 
