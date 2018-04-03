@@ -23,8 +23,10 @@ Follow the steps on
 
 ##### Set your key
 
-Create `.env` file at the root of your app containing: <br/> 
-`REACT_APP_PUBLIC_KEY=YOUR_PUBLIC_API_KEY`
+Create `.env` file at the root of your app containing: <br/>
+
+`REACT_APP_PUBLIC_KEY=YOUR_PUBLIC_API_KEY` <br>
+`REACT_APP_PUBLIC_KEY=YOUR_PRIVATE_API_KEY`
 
 ##### Start development server
 
