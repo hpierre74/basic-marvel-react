@@ -26,7 +26,7 @@ If you want to see your code in production mode :<br/>
 `yarn build`<br/>
 
 ##### Update `package.json` : 
-From `start: react-scripts start` <br/>
+From `start: react-scripts start,` <br/>
 To `start: node index.js,` <br/>
 
 ##### Finally, run 
@@ -34,7 +34,7 @@ To `start: node index.js,` <br/>
 
 #### Alternatively you could define a new script in `package.json` as below : 
 `start: react-scripts start,`<br/>
-`prod: node index.js`
+`prod: node index.js,`
 
 ##### And run your new script after you build your app :
 `yarn prod`
