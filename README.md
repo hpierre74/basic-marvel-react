@@ -27,7 +27,7 @@ If you want to see your code in production mode :<br/>
 
 ##### Update `package.json` : 
 From `start: react-scripts start` <br/>
-To `start: node index.js` <br/>
+To `start: node index.js,` <br/>
 
 ##### Finally, run 
 `yarn start` <br/>
