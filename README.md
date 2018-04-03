@@ -9,14 +9,14 @@ Npm or Yarn
 
 ### Development
 
-Open your terminal in your local working directory and run :<br/>
-`git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react` <br /> 
-Install dependencies <br/>
- `yarn install` or `npm install` <br/>
-Start development server <br/>
- `yarn start` or ` npm start`<br/>
-Then open your browser and browse : <br/>
- `localhost:3000`<br/>
+##### Open your terminal in your local working directory and run :
+`git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react` 
+##### Install dependencies 
+ `yarn install` or `npm install` 
+##### Start development server 
+ `yarn start` or ` npm start`
+##### Then open your browser and browse :
+ `localhost:3000`
 
 ### Production
 
@@ -35,7 +35,8 @@ To `start: node index.js` <br/>
 #### Alternatively you could define a new script in `package.json` as below : 
 `start: react-scripts start,`<br/>
 `prod: node index.js`
-And run your new script after you build your app : <br/>
+
+##### And run your new script after you build your app :
 `yarn prod`
 
 
