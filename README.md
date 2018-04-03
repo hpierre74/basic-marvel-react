@@ -7,10 +7,10 @@ Npm / Yarn
 
 ## Getting Started
 
-clone & cd into this repo.
-In your Terminal `yarn install / npm install`.
-Then run `yarn start / npm start`.
-Finally, browse `localhost:3000`.
+clone & cd into this repo <br/>
+In your Terminal `yarn install / npm install` <br/>
+Then run `yarn start / npm start`<br/>
+Finally, browse `localhost:3000`<br/>
 
 
 ## Features
