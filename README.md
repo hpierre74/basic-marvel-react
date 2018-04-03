@@ -34,7 +34,7 @@ To `start: node index.js,` <br/>
 
 #### Alternatively you could define a new script in `package.json` as below : 
 `start: react-scripts start,`<br/>
-`prod: node index.js,`
+**`prod: node index.js,`**
 
 ##### And run your new script after you build your app :
 `yarn prod`
