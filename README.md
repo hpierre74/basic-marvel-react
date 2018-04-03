@@ -7,7 +7,7 @@ Npm or Yarn
 
 ## Getting Started
 
-###Development
+### Development
 
 Open your terminal in your local working directory and run :<br/>
 `git clone https://github.com/hpierre74/basic-marvel-react.git && cd basic-marvel-react` <br /> 
