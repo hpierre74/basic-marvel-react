@@ -17,6 +17,15 @@ Npm or Yarn
 
 `yarn install` or `npm install`
 
+##### Get a MarvelAPI key
+Follow the steps on
+[Get My key](https://developer.marvel.com)/signup)
+
+##### Set your key
+
+Create `.env` file at the root of your app containing: <br/> 
+`REACT_APP_PUBLIC_KEY=YOUR_PUBLIC_API_KEY`
+
 ##### Start development server
 
 `yarn start` or `npm start`
