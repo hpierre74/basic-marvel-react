@@ -19,7 +19,7 @@ Npm or Yarn
 
 ##### Get a MarvelAPI key
 Follow the steps on
-[Get My key](https://developer.marvel.com)/signup)
+[Get My key](https://developer.marvel.com/signup)
 
 ##### Set your key
 
