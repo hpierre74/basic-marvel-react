@@ -18,8 +18,8 @@ Npm or Yarn
 `yarn install` or `npm install`
 
 ##### Get a MarvelAPI key
-Follow the steps on
-[Get My key](https://developer.marvel.com/signup)
+Follow the steps on Marvel developer website
+[Get my key](https://developer.marvel.com/signup)
 
 ##### Set your key
 
