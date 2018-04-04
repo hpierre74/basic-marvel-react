@@ -9,6 +9,10 @@
 # production
 /build
 
+**/withRazzleSSR
+**/withNodeAPI
+
+
 # misc
 .DS_Store
 .env
